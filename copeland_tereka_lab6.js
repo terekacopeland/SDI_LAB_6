@@ -19,7 +19,8 @@ var myFunction = function(){
 	familyHobbies[familyHobbies.length] = "movies."
 	
 	for (var i = 0; i < familyNames.length; i++) {
-		alert(familyNames[i]);
+		//alert(familyNames[i]);
+		console.log(familyNames[i]);
 		console.log(familyNames[i] + " hobbie is " + familyHobbies[i]);
 		 
 	};
