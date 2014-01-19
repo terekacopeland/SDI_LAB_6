@@ -15,6 +15,8 @@ var myFunction = function(){
 	
 	console.log("The length of the array is " + familyNames.length);
 	
+	familyNames[familyNames.length] = "Jill's";
+	familyHobbies[familyHobbies.length] = "movies."
 	
 	for (var i = 0; i < familyNames.length; i++) {
 		alert(familyNames[i]);
@@ -22,7 +24,8 @@ var myFunction = function(){
 		 
 	};
 
-	
+	var lostname = familyNames.pop();
+	var losthobbie = familyHobbies.pop();
 	
 	familyNames.push("Tracy's");
 	familyHobbies.push("cooking.");
